@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(19, 10, 12);
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    width: 100vw;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    color:  rgb(19, 10, 12);
+    overflow-x: hidden;
+}
+a{
+    color:  rgb(19, 10, 12);
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 25px;
+}
+
+.nav-links{
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.nav-links li{
+    margin-right: 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    
+    color: #fff;
+
+}
+
+.perfil-card{
+    width: 50vw;
+    height: 60vh;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+}
+
+.arriba{
+    background-color: rgb(59, 92, 143);
+    height: 15vh;
+    border-radius: 15px 15px 0px 0px;
+    
+    
+}
+.separacion{
+    height: 10vh;
+    
+}
+
+.contenedor-foto{
+    
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.contenido{
+    font-family: "Roboto", sans-serif;
+    width: 40vw;
+    margin: auto;
+}
+h1,h3, h4, p{
+    
+    padding: 10px;
+}
+button{
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.educacion{
+    width: 50vw;
+    height: 15wh;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.solicitudes {
+    width: 30vw;
+    height: 25vh;
+    background-color: white;
+    margin: 20px;
+    padding: auto;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+
+}
+
+.solicitudes img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: blue solid 2px;
+    padding: 0px;
+    
+}
+
+.solicitudes a, .conexion a{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.solicitudes button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50x;
+}
+
+.solicitudes h3, .conexiones h3{
+    padding: 15px 0px 0px 20px;
+    
+}
+.solicitud , .conexion{
+    display: flex;
+    height: 30px;
+    margin: 10px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+.conexiones{
+    width: 30vw;
+    height: 30vh;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+}
+.conexion img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.conexion a{
+    justify-content: flex-start;
+}
+
+@media(max-width: 1629px){
+     .conexiones{
+        height: 35vh;
+     }
+     .educacion{
+        height: 17vh;
+     }
+     h1,h3, h4, p{
+    padding: 5pxpx;
+    }
+    .perfil-card{
+        height: 65vh;
+    }
+}
+
+
+
+@media(max-width: 1000px){
+     .perfil-card{
+
+        width: 70vw;
+        height: 600px;
+        margin: 20px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+    }
+    
+    .contenido{
+        width: 60vw;
+    }
+
+    .educacion{
+        width: 70vw;
+    }
+    .side{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+     .solicitudes{
+        width: 70vw;
+        height: 30vh;
+        margin: 20px;
+        
+        
+    }
+    .conexiones{
+        width: 70vw;
+        height: 40vh;
+        margin: 20px;
+    }
+}
+
+@media(max-width: 667px){
+
+    .navbar{
+        width: 100vw;
+    }
+     .perfil-card{
+
+        width: 80vw;
+        height: 620px;
+        margin: 20px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(128, 121, 121, 0.5);
+    }
+    
+    .contenido{
+        width: 70vw;
+    }
+
+    .educacion{
+        width: 80vw;
+    }
+    .side{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conexiones, .solicitudes{
+        width: 80vw;
+        margin: 20px;
+        
+        
+    }
+}
+
+
+
