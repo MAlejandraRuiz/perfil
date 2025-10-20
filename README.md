@@ -1,2 +1,2 @@
-# perfil
+# Pagina de perfil
 Pagina de perfil creada con html y css
